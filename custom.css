@@ -20,3 +20,7 @@ Styles in this file overwrite the styles in that stylesheet */
     --marked: #ffdd33;
     --disabled: #efefef;
   }
+
+header {
+  background-image:url("");
+}
