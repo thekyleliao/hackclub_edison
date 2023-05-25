@@ -20,6 +20,7 @@
         <a href="/members.html">Member List</a>
         <a href="/faq.html">FAQs</a>
         <a href="/donation.html">Donate</a>
+        <button onclick="dark_mode()">⏾</button>
       </nav>
       <h1>Edison Hack Club</h1>
       <img alt="logo missing" src="/static/hackclubfav.png" width="10%" />
@@ -51,3 +52,11 @@
     </footer>
   </body>
 </html>
+
+
+<script>
+  function dark_mode() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>

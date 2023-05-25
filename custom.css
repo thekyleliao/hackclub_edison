@@ -19,6 +19,20 @@ Styles in this file overwrite the styles in that stylesheet */
   --disabled: #efefef;
 }
 
+.dark-mode{
+  --bg: #212121;
+  --accent-bg: #2b2b2b;
+  --text: #dcdcdc;
+  --text-light: #ababab;
+  --border: #666;
+  --accent: #90caf9;
+  --accent-light: #0d47a1;
+  --code: #d81b60;
+  --preformatted: #444;
+  --marked: #ffdd33;
+  --disabled: #111;
+}
+
 header {
   background-image: url("");
 }
